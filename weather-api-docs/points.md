@@ -1,4 +1,4 @@
-# Get weather forecast for a location
+# Get started
 **Request**: `https://api.weather.gov/points/{lat},{lon}`
 
 **Content type**: `application/geo+json`
@@ -11,9 +11,17 @@
 
 ## Overview
 
-Use this request to get forecast for a location. The request returns URLs for two types of forecast:
-1. Weekly Forecast in the `forecast` property
-2. Hourly forecast in the `forecastHourly` property
+Use this request to get data such as weather forecast, the corresponding weather office, observation station, and grid information for the location. 
+
+This request returns URLs for the following data:
+1. Weekly forecast
+2. Hourly forecast
+3. Forecast office
+4. Grid data
+5. Observation stations in the location
+6. Forecast zone
+7. Location's county
+8. Fire weather zone
 
 ## Example
 ### Request
@@ -142,11 +150,11 @@ https://api.weather.gov/points/42.3601,-71.0589
 
 `relativeLocation`: Location details. Includes coordinates, city name, state name, etc.
 
-`forecastZone`: URL for the locaiton's forecast zone.
+`forecastZone`: URL for the location's forecast zone.
 
 `county`: URL for the location's county. 
 
-`fireWeatherZone`: URL for the location's firezon.
+`fireWeatherZone`: URL for the location's firezone.
 
 `timeZone`: Timezone for the location.
 
