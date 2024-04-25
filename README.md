@@ -28,7 +28,7 @@ Once you've the grid data, you can use it to request the following data from the
 
 * [Get weekly forecast for a location](/weather-api-docs/weekly-forecast.md)
 * [Get hourly forecast for a location](/weather-api-docs/hourly-weekly-forecast.md)
-* [https://github.com/nikitaapraj/weather-api/blob/main/weather-api-docs/offices.md](/weather-api-docs/offices.md)
+* [Get weather office information](/weather-api-docs/offices.md)
 * [Get observation station information](/weather-api-docs/stations.md)
 
 
