@@ -116,8 +116,37 @@ https://api.weather.gov/points/42.3601,-71.0589
 }
 
 ```
-## Attribute table
+## Propoerties
 
+`cwa`: Short code for the corresponding weather office.
+
+`forecastOffice`: URL of the corresponding weather office.
+
+`gridId`: Grid ID of the location.
+
+`gridX`: X axis of the grid where the location is.
+
+`gridY`: Y axis of the grid where the location is.
+
+`forecast`: URL for the location forecast.
+
+`forecastHourly`: URL for the hourly forecast for the location.
+
+`forecastGridData`: URL for the location grid.
+
+`observationStations`: URL for the observation stations in the location.
+
+`relativeLocation`: Location details. Includes coordinates, city name, state name, etc.
+
+`forecastZone`: URL for the locaiton's forecast zone.
+
+`county`: URL for the location's county. 
+
+`fireWeatherZone`: URL for the location's firezon.
+
+`timeZone`: Timezone for the location.
+
+`radarStation`: Location's RADAR station.
 
 
 
