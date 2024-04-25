@@ -11,10 +11,9 @@
 
 ## Overview
 
-Use this request to get forecast for a location. The request returns URLs for three types of forecast:
+Use this request to get forecast for a location. The request returns URLs for two types of forecast:
 1. Weekly Forecast
 2. Hourly forecast
-3. 
 
 ## Example
 ### Request
