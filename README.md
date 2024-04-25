@@ -18,7 +18,7 @@ The NWS API requests use grid data to retrieve information. The grid data corres
 
 1. Get coordinates for the location for which you want to obtain the grid values.
 
-2. [Get grid values](/weather-api-docs/grid-values-url.md).
+2. [Get the grid data](/weather-api-docs/grid-values-url.md).
 
 > Grid values for a location may occassionaly change. Periodically monitor the latest grid mapping to ensure the correct output.
 
