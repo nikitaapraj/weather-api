@@ -18,13 +18,18 @@ The NWS API requests use grid data to retrieve information. The grid data corres
 
 1. Get coordinates for the location for which you want to obtain the grid values.
 
-2. 
+2. [Get grid values](/weather-api-docs/grid-values-url.md).
 
+> Grid values for a location may occassionaly change. Periodically monitor the latest grid mapping to ensure the correct output.
 
+## 2. Get other data
 
-Grid values for a location may occassionaly change. Periodically monitor the latest grid mapping to ensure the correct output.
+Once you've the grid data, you can use it to request the following data from the NWS API:
 
-
+* [Get weekly forecast for a location](/weather-api-docs/weekly-forecast.md)
+* [Get hourly forecast for a location](/weather-api-docs/hourly-weekly-forecast.md)
+* [https://github.com/nikitaapraj/weather-api/blob/main/weather-api-docs/offices.md](/weather-api-docs/offices.md)
+* [Get observation station information](/weather-api-docs/stations.md)
 
 
 
