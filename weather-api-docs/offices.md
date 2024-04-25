@@ -69,3 +69,34 @@ https://api.weather.gov/offices/BOX
 }
 ```
 ## Properties
+`id`: ID of the weather office.
+
+`name`: Name of the weather offfice.
+
+`address`: Postal address of the weather office.
+
+`telephone`: Phone number of the weather office.
+
+`faxNumber`: Fax number of the weather office.
+
+`email`: Email address of the weather office.
+
+`sameAs`: Website link of the weather office.
+
+`nwsRegion`: NWS region the office falls under. It can be one of the six regions:
+* `ar`: Alaska region
+* `cr`: Central region
+* `er`: Eastern region
+* `pr`: Pacific region
+* `sr`: Southern region
+* `wr`: Western region
+
+`parentOrganization`: Three letter code for the headquarter the office falls under.
+
+`responsibleCounties`: List of URLs for the counties that fall under the weather office.
+
+`responsibleForecastZones`: List of URLs for the forecast zones that fall under the weather office.
+
+`responsibleFireZones`: List of URLs for the fire zones that fall under the weather office.
+
+`approvedObservationStations`: List of URLs for the approved observation stations that fall under the weather office.
