@@ -1,6 +1,6 @@
 # API DOCUMENTATION FOR NATIONAL WEATHER SERVICE API
 
-*I've created this documentation as a personal project. The official documentation for the NWS API is <a href="https://www.weather.gov/documentation/services-web-api" target="blank">here</a>.*
+*I've created this documentation as a personal project. The official documentation for the NWS API is <a href="https://www.weather.gov/documentation/services-web-api" target="_blank">here</a>.*
 
 Tools used:
 * **Postman** (to test the API endpoints and create examples)
