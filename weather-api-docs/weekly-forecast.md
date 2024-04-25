@@ -13,7 +13,7 @@
 
 ## Overview
 
-This request returns a seven-day forecast for the location including the current day.
+This request returns a seven-day forecast for the location including the current day. To get hourly forecast, see [Get hourly forecast for a location](/weather-api-docs/hourly-weekly-forecast.md).
 
 
 

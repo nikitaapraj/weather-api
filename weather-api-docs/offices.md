@@ -11,6 +11,9 @@
 
 Use this request to get information about a weather office including name, address, and contact information. It also returns a list of counties, forecast zones, and fire zones the office is responsible for as well as a list of approved observation stations under the office.
 
+To get detailed information about observation stations, see [Get observation station information](/weather-api-docs/stations.md).
+
+
 ## Example
 ### Request
 ```

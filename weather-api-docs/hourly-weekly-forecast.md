@@ -13,7 +13,7 @@
 
 ## Overview
 
-This request returns an hourly weather forecast for the coming week for the location starting the current hour.
+This request returns an hourly weather forecast for the coming week for the location starting the current hour. To get weekly forecast, see [Get weekly forecast for a location](/weather-api-docs/weekly-forecast.md).
 
 ## Example
 ### Request

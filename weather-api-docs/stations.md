@@ -15,6 +15,8 @@
 
 Use this request to get a list of observation stations under the specified weather office. Each entry in the list includes the name of the observation stations and URLs for its county, forecast zone, and fire zone. 
 
+To get information about a weather office instead, see [Get weather office information](/weather-api-docs/offices.md).
+
 ## Example
 ### Request
 ```
