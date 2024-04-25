@@ -13,7 +13,7 @@
 
 ## Overview
 
-This request returns a seven-day forecast for the location includign the current day.
+This request returns a seven-day forecast for the location including the current day.
 
 
 
