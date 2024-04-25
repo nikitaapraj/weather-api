@@ -7,9 +7,9 @@
 
 `{gridId}`: The three letter ID for the weather office. Must be all caps. For example, `BOX` for Boston, MA.
 
-`gridX`: X axis of the grid where the location is. For example, `71`.
+`{gridX}`: X axis of the grid where the location is. For example, `71`.
 
-`gridY`: Y axis of the grid where the location is. For example, `90`.
+`{gridY}`: Y axis of the grid where the location is. For example, `90`.
 
 ## Overview
 
