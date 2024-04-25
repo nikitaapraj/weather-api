@@ -1,4 +1,4 @@
-# Get weekly forecast for a location
+# Get hourly forecast for a location
 **Request**: `https://api.weather.gov/{gridId}/{gridX},{gridY}/forecast/hourly`
 
 **Content type**: `application/geo+json`
