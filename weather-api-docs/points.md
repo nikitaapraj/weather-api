@@ -116,7 +116,7 @@ https://api.weather.gov/points/42.3601,-71.0589
 }
 
 ```
-## Propoerties
+## Properties
 
 `cwa`: Short code for the corresponding weather office.
 
