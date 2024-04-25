@@ -161,12 +161,12 @@ https://api.weather.gov/points/42.3601,-71.0589
 
 ## Next steps
 
-[Get weekly forecast for a location](/weather-api-docs/weekly-forecast.md)
+[Get weekly forecast for a location](weekly-forecast.md)
 
-[Get hourly forecast for a location](/weather-api-docs/hourly-weekly-forecast.md)
+[Get hourly forecast for a location](hourly-weekly-forecast.md)
 
-[Get weather office information](/weather-api-docs/offices.md)
+[Get weather office information](offices.md)
 
-[Get observation station information](/weather-api-docs/stations.md)
+[Get observation station information](stations.md)
 
 
