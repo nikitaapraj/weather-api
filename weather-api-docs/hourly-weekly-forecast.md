@@ -137,7 +137,7 @@ https://api.weather.gov/gridpoints/BOX/71,90/forecast/hourly
 
 `updated`: Date and time the forecast was updated.
 
-`units`: Measurement units for the forecast.
+`units`: Measurement unit system for the forecast.
 
 `forecastGenerator`: Forecast generator name.
 
@@ -152,10 +152,10 @@ https://api.weather.gov/gridpoints/BOX/71,90/forecast/hourly
 * `unitCode`: Measurement unit for the elevation.
 * `value`: Elevation of the location.
 
-`periods`: List of the seven-day periods with forecast data.
+`periods`: List of the one hour periods for a week with forecast data.
 
 * `number`: Period number.
-* `name`: Name of the period. For example, `This afternoon` or `Saturday night`.
+* `name`: Name of the period. This may be empty for hourly forecast.
 * `startTime`: Start date and time of the period.
 * `endTime`: End date and time of the period.
 * `isDaytime`: Whether it's a day time. It's either `True` or `False`.
@@ -171,8 +171,8 @@ https://api.weather.gov/gridpoints/BOX/71,90/forecast/hourly
 * `relativeHumidity`:
     * `unitCode`: Measurement unit for relative humidity.
     * `value`: Value for relative humidity.
-* `windSpeed`: Range of the windspeed.
+* `windSpeed`: Windspeed forecast for the hour.
 * `windDirection`: Direction of the windspeed in one or two letter code. For example, `E` for East.
 * `icon`: URL for the relevant weather icon.
 * `shortForecast`: Short description of the weather forecast.
-* `detailedForecast`: Detailed description of the weather forecast.
+* `detailedForecast`: Detailed description of the weather forecast. This may be empty for hourly forecast.
