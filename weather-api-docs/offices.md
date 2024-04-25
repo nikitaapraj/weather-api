@@ -1,11 +1,11 @@
 # Get weather office information
-**Request**: `https://api.weather.gov/offices/{cwa}`
+**Request**: `https://api.weather.gov/offices/{gridId}`
 
 **Content type**: `application/ld+json`
 
 ## Required parameters
 
-`{cwa}`: The three letter code for the weather office. Must be all caps. For example, `BOX` for Boston, MA.
+`{gridId}`: The three letter code for the weather office. Must be all caps. For example, `BOX` for Boston, MA.
 
 ## Overview
 
