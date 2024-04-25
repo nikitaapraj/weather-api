@@ -1,11 +1,11 @@
 # API DOCUMENTATION FOR NATIONAL WEATHER SERVICE API
 
-*I've created this documentation as a personal project. The official documentation for the NWS API is [here](https://www.weather.gov/documentation/services-web-api).*
+*I've created this documentation as a personal project. The official documentation for the NWS API is <a href="https://www.weather.gov/documentation/services-web-api" target="blank">here</a>.*
 
 Tools used:
-* Postman (to test the API endpoints and create examples)
-* Visual Studio Code (for writing the docs in Markdown)
-* GitHub Desktop (for branching and version control)
+* **Postman** (to test the API endpoints and create examples)
+* **Visual Studio Code** (for writing the docs in Markdown)
+* **GitHub Desktop** (for branching and version control)
 
 ----
 # Get started with the NWS API
