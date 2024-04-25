@@ -128,4 +128,4 @@ https://api.weather.gov/gridpoints/BOX/71,90/stations
 `fireweatherzone`: URL for the fire zone of the observation station.
 
 ---
-**Back to [Home](README.md)**
+**[Back to Home](../README.md)**
