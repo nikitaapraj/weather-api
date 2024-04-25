@@ -128,6 +128,9 @@ https://api.weather.gov/gridpoints/BOX/71,90/forecast/hourly
                 "shortForecast": "Sunny",
                 "detailedForecast": ""
             }
+        ]
+    }
+}
 ```
 
 ## Properties
