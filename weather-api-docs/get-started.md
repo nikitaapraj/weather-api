@@ -1,4 +1,5 @@
-# Get started
+# Get grid values
+
 **Request**: `https://api.weather.gov/points/{lat},{lon}`
 
 **Content type**: `application/geo+json`
@@ -11,7 +12,7 @@
 
 ## Overview
 
-Use this request to get the data that you'll need for various requests. This request returns URLs for the following data:
+Use this request to get the data that you'll need for various requests. This request returns grid values for the location. It also returns URLs for the following data:
 1. Weekly forecast
 2. Hourly forecast
 3. Forecast office
