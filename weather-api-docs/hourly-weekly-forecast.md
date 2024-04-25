@@ -176,3 +176,6 @@ https://api.weather.gov/gridpoints/BOX/71,90/forecast/hourly
 * `icon`: URL for the relevant weather icon.
 * `shortForecast`: Short description of the weather forecast.
 * `detailedForecast`: Detailed description of the weather forecast. This may be empty for hourly forecast.
+
+---
+**[Back to Home](../README.md)**
