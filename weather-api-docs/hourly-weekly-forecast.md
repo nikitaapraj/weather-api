@@ -1,5 +1,5 @@
 # Get weekly forecast for a location
-**Request**: `https://api.weather.gov/{gridId}/{gridX},{gridY}/forecast`
+**Request**: `https://api.weather.gov/{gridId}/{gridX},{gridY}/forecast/hourly`
 
 **Content type**: `application/geo+json`
 
@@ -13,14 +13,12 @@
 
 ## Overview
 
-This request returns a seven-day forecast for the location includign the current day.
-
-
+This request returns an hourly weather forecast for the coming week for the location starting the current hour.
 
 ## Example
 ### Request
 ```
-https://api.weather.gov/gridpoints/BOX/71,90/forecast
+https://api.weather.gov/gridpoints/BOX/71,90/forecast/hourly
 ```
 
 ### Response
@@ -67,8 +65,8 @@ https://api.weather.gov/gridpoints/BOX/71,90/forecast
     "properties": {
         "updated": "2024-04-25T14:50:17+00:00",
         "units": "us",
-        "forecastGenerator": "BaselineForecastGenerator",
-        "generatedAt": "2024-04-25T17:37:24+00:00",
+        "forecastGenerator": "HourlyForecastGenerator",
+        "generatedAt": "2024-04-25T19:38:37+00:00",
         "updateTime": "2024-04-25T14:50:17+00:00",
         "validTimes": "2024-04-25T08:00:00+00:00/P8DT6H",
         "elevation": {
@@ -78,16 +76,43 @@ https://api.weather.gov/gridpoints/BOX/71,90/forecast
         "periods": [
             {
                 "number": 1,
-                "name": "This Afternoon",
-                "startTime": "2024-04-25T13:00:00-04:00",
-                "endTime": "2024-04-25T18:00:00-04:00",
+                "name": "",
+                "startTime": "2024-04-25T15:00:00-04:00",
+                "endTime": "2024-04-25T16:00:00-04:00",
+                "isDaytime": true,
+                "temperature": 52,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "probabilityOfPrecipitation": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 0
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -8.8888888888888893
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 24
+                },
+                "windSpeed": "8 mph",
+                "windDirection": "E",
+                "icon": "https://api.weather.gov/icons/land/day/skc,0?size=small",
+                "shortForecast": "Sunny",
+                "detailedForecast": ""
+            },
+            {
+                "number": 2,
+                "name": "",
+                "startTime": "2024-04-25T16:00:00-04:00",
+                "endTime": "2024-04-25T17:00:00-04:00",
                 "isDaytime": true,
                 "temperature": 53,
                 "temperatureUnit": "F",
                 "temperatureTrend": null,
                 "probabilityOfPrecipitation": {
                     "unitCode": "wmoUnit:percent",
-                    "value": null
+                    "value": 0
                 },
                 "dewpoint": {
                     "unitCode": "wmoUnit:degC",
@@ -97,42 +122,12 @@ https://api.weather.gov/gridpoints/BOX/71,90/forecast
                     "unitCode": "wmoUnit:percent",
                     "value": 26
                 },
-                "windSpeed": "6 to 9 mph",
+                "windSpeed": "9 mph",
                 "windDirection": "E",
-                "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
+                "icon": "https://api.weather.gov/icons/land/day/skc,0?size=small",
                 "shortForecast": "Sunny",
-                "detailedForecast": "Sunny, with a high near 53. East wind 6 to 9 mph."
-            },
-            {
-                "number": 2,
-                "name": "Tonight",
-                "startTime": "2024-04-25T18:00:00-04:00",
-                "endTime": "2024-04-26T06:00:00-04:00",
-                "isDaytime": false,
-                "temperature": 33,
-                "temperatureUnit": "F",
-                "temperatureTrend": null,
-                "probabilityOfPrecipitation": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": null
-                },
-                "dewpoint": {
-                    "unitCode": "wmoUnit:degC",
-                    "value": -2.2222222222222223
-                },
-                "relativeHumidity": {
-                    "unitCode": "wmoUnit:percent",
-                    "value": 75
-                },
-                "windSpeed": "5 to 9 mph",
-                "windDirection": "SW",
-                "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
-                "shortForecast": "Clear",
-                "detailedForecast": "Clear, with a low around 33. Southwest wind 5 to 9 mph."
+                "detailedForecast": ""
             }
-        ]
-    }
-}
 ```
 
 ## Properties
