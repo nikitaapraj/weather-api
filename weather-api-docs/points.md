@@ -12,8 +12,8 @@
 ## Overview
 
 Use this request to get forecast for a location. The request returns URLs for two types of forecast:
-1. Weekly Forecast
-2. Hourly forecast
+1. Weekly Forecast in the `forecast` property
+2. Hourly forecast in the `forecastHourly` property
 
 ## Example
 ### Request
