@@ -5,7 +5,7 @@
 
 ## Required parameters
 
-`{gridId}`: The three letter code for the weather office. Must be all caps. For example, `BOX` for Boston, MA.
+`{gridId}`: The three letter ID for the weather office. Must be all caps. For example, `BOX` for Boston, MA.
 
 ## Overview
 
