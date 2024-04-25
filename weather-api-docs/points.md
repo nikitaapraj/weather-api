@@ -13,7 +13,9 @@
 
 ## Example
 ### Request
-`https://api.weather.gov/points/42.3601,-71.0589`
+```
+https://api.weather.gov/points/42.3601,-71.0589
+```
 
 ### Response
 
