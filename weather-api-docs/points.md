@@ -11,9 +11,7 @@
 
 ## Overview
 
-Use this request to get data such as weather forecast, the corresponding weather office, observation station, and grid information for the location. 
-
-This request returns URLs for the following data:
+Use this request to get the data that you'll need for various requests. This request returns URLs for the following data:
 1. Weekly forecast
 2. Hourly forecast
 3. Forecast office
