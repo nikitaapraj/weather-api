@@ -1,7 +1,7 @@
 # Get weather office information
 **Request**: `https://api.weather.gov/offices/{cwa}`
 
-**Content type**: `application/geo+json`
+**Content type**: `application/ld+json`
 
 ## Required parameters
 
