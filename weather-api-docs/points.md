@@ -11,6 +11,11 @@
 
 ## Overview
 
+Use this request to get forecast for a location. The request returns URLs for three types of forecast:
+1. Weekly Forecast
+2. Hourly forecast
+3. 
+
 ## Example
 ### Request
 ```
@@ -128,7 +133,7 @@ https://api.weather.gov/points/42.3601,-71.0589
 
 `gridY`: Y axis of the grid where the location is.
 
-`forecast`: URL for the location forecast.
+`forecast`: URL for the weekly forecast for the location.
 
 `forecastHourly`: URL for the hourly forecast for the location.
 
