@@ -139,7 +139,7 @@ https://api.weather.gov/gridpoints/BOX/71,90/forecast
 
 `updated`: Date and time the forecast was updated.
 
-`units`: Measurement units for the forecast.
+`units`: Measurement unit system for the forecast.
 
 `forecastGenerator`: Forecast generator name.
 
