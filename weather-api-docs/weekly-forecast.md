@@ -461,3 +461,44 @@ https://api.weather.gov/gridpoints/BOX/71,90/forecast
 
 ## Properties
 
+`updated`: Date and time the forecast was updated.
+
+`units`: Measurement units for the forecast.
+
+`forecastGenerator`: Forecast generator name.
+
+`generatedAt`: Date and time the forecast was generated.
+
+`updateTime`: Date and time the forecast was updated.
+
+`validTimes`: Date and time the forecast generation is valid until.
+
+`elevation`: Elevation of the location.
+
+* `unitCode`: Measurement unit for the elevation.
+* `value`: Elevation of the location.
+
+`periods`: List of the seven-day periods with forecast data.
+
+* `number`: Period number.
+* `name`: Name of the period. For example, `This afternoon` or `Saturday night`.
+* `startTime`: Start date and time of the period.
+* `endTime`: End date and time of the period.
+* `isDaytime`: Whether it's a day time. It's either `True` or `False`.
+* `temparature`: Temperature for the period.
+* `temperatureUnit`: Measurement unit for the temperature. 
+* `temperatureTrend`: Temperature trend, if any.
+* `probabilityOfPrecipitation`: Chances of precipitation.
+    * `unitCode`: Measurement unit for the precipitation chances.
+    * `value`: Value for precipitation chances.
+* `dewpoint`:
+    * `unitCode`: Measurement unit for the dew point.
+    * `value`: Value for the dew point.
+* `relativeHumidity`:
+    * `unitCode`: Measurement unit for relative humidity.
+    * `value`: Value for relative humidity.
+* `windSpeed`: Range of the windspeed.
+* `windDirection`: Direction of the windspeed in one or two letter code. For example, `E` for East.
+* `icon`: URL for the relevant weather icon.
+* `shortForecast`: Short description of the weather forecast.
+* `detailedForecast`: Detailed description of the weather forecast.
