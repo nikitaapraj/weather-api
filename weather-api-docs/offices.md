@@ -51,27 +51,20 @@ https://api.weather.gov/offices/BOX
         "https://api.weather.gov/zones/forecast/ANZ230",
         "https://api.weather.gov/zones/forecast/ANZ231",
         "https://api.weather.gov/zones/forecast/ANZ232",
-        "https://api.weather.gov/zones/forecast/ANZ233",
-        "https://api.weather.gov/zones/forecast/ANZ234",
-        "https://api.weather.gov/zones/forecast/ANZ235"
+        "https://api.weather.gov/zones/forecast/ANZ233"
     ],
     "responsibleFireZones": [
         "https://api.weather.gov/zones/fire/CTZ002",
         "https://api.weather.gov/zones/fire/CTZ003",
         "https://api.weather.gov/zones/fire/CTZ004",
-        "https://api.weather.gov/zones/fire/MAZ002",
-        "https://api.weather.gov/zones/fire/MAZ003",
-        "https://api.weather.gov/zones/fire/MAZ004",
-        "https://api.weather.gov/zones/fire/MAZ005",
-        "https://api.weather.gov/zones/fire/MAZ006"
+        "https://api.weather.gov/zones/fire/MAZ002"
     ],
     "approvedObservationStations": [
         "https://api.weather.gov/stations/K1P1",
         "https://api.weather.gov/stations/KACK",
         "https://api.weather.gov/stations/KAFN",
         "https://api.weather.gov/stations/KAQW",
-        "https://api.weather.gov/stations/KASH",
-        "https://api.weather.gov/stations/KBAF"
+        "https://api.weather.gov/stations/KASH"
     ]
 }
 ```
